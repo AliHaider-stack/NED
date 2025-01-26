@@ -242,12 +242,8 @@ function App() {
 
 
 <div>
-  <h4>Activity to Do</h4>
-  {data10 && data10.activity ? (
-    <p>{data10.activity}</p>
-  ) : (
-    <p>Loading activity...</p>
-  )}
+  <h4>Activity to do</h4>
+  <p>{data10.activity}</p>
 </div>
 
 
